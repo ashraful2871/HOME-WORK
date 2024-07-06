@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -60,7 +62,6 @@
     font-weight: 426;
     line-height: 16.33px;
     letter-spacing: 0%;
-    /* text-align: center; */
 }
 
 .button-content {
@@ -74,7 +75,75 @@
     border-radius: 5px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
 }
-.button{
+
+.button {
     text-align: center;
+}
+
+#card-box {
+    width: 937.2px;
+    margin: 100px auto;
+
+}
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 497;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17.5px;
+    font-weight: 355;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.card-content {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 265px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card .imag-box {
+    width: 265px;
+}
+
+.card .imag-box img {
+    width: 100%;
+}
+
+.card .Shop {
+    text-align: center;
+    border-radius: 5.68px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+}
+
+.card .watch {
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+
+    background: rgb(82, 195, 3);
 }
