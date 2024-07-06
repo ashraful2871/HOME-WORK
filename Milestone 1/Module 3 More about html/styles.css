@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+.teal-highlight{
+    color: teal;
+}
+.haif-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+.haif-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: teal;
+    padding: 10px 10px;
+    border-radius: 5px ;
+    margin-top: 60px;
+    margin-left: 200px;
+    background-image: linear-gradient(rgb(128, 9, 0),rgb(255, 105, 105));
+    color: white;
+    position: absolute;
+}
+.paragraph{ 
+    text-align: justify;
+    margin-bottom: 15px;
+    padding: 26px;    
+}
+header{
+    display: flex; 
+    background-color: rgb(250, 108, 89);
+    color: white;
+    border: 3px solid rgb(250, 108, 89);
+    height: 50px;   
+}
+.pain{
+    margin-left: 350px;
+    padding-top: 15px;
+    height: 40px;    
+}
+.dream-paragraph{
+    padding-top: 130px;
+    background-color: white;
+}
+.dream{
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 100px;
+    padding-bottom: 250px;
+}
+.experience-area{
+    background-image: url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-right: 30px;    
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 250px;
+    background-color: white;
+    text-align: justify;
+    padding: 15px;
+    border-left: 4px solid;
+    border-right: 4px solid;   
+}
+#full-stack{    
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#stack-dev{   
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#experience-center{
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    margin-left: 600px;
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, teal, rgb(98, 0, 255));
+    border-image-slice: 1;
+}
